@@ -17,7 +17,7 @@ function App() {
       <LocationContact />
 
       {/* Simple Footer */}
-      <footer className="bg-brand-navy border-t border-brand-gold/10 py-10 text-center">
+      <footer className="bg-brand-gold border-t border-brand-gold/10 py-10 text-center">
         <div className="max-w-7xl mx-auto px-6">
           <p className="text-brand-offwhite/50 text-sm font-body">
             &copy; {new Date().getFullYear()} Tōst Bombay. All rights reserved. <br className="md:hidden" />
