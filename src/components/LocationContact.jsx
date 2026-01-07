@@ -4,7 +4,7 @@ import { MapPin, Phone, Mail, Instagram, Facebook, Clock } from 'lucide-react';
 
 const LocationContact = () => {
     return (
-        <section id="contact" className="section-padding bg-gradient-to-b from-brand-cream via-brand-beige/30 to-brand-navy text-brand-navy">
+        <section id="contact" className="section-padding bg-brand-cream text-brand-navy">
             <div className="grid md:grid-cols-2 gap-16 items-start">
                 {/* Contact Info */}
                 <motion.div
@@ -60,7 +60,7 @@ const LocationContact = () => {
                     className="h-full min-h-[400px] w-full rounded-2xl overflow-hidden relative group"
                 >
                     {/* Soft gradient background instead of hard box */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-brand-gold/10 via-brand-navy to-brand-navy flex items-center justify-center">
+                    <div className="absolute inset-0 bg-brand-navy flex items-center justify-center">
                         <div className="text-center p-8">
                             <MapPin size={56} className="mx-auto mb-6 text-brand-gold drop-shadow-lg" style={{ filter: 'drop-shadow(0 0 20px rgba(198, 157, 84, 0.3))' }} />
                             <p className="text-brand-gold font-heading text-2xl md:text-3xl italic mb-2">See you in Andheri West</p>
